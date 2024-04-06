@@ -56,8 +56,7 @@ def compare(crypto):
         encrypt = crypto.copy()
 
 
-print('0 - stop',
-      '1 - md5',
+print('1 - md5',
       '2 - sha1',
       '3 - sha224',
       '4 - sha256',
