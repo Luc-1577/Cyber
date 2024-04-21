@@ -11,10 +11,6 @@ sha3_256_ = hs.sha3_256()
 sha3_384_ = hs.sha3_384()
 sha3_512_ = hs.sha3_512()
 
-md5_.update(b'h')
-print(md5_.hexdigest())
-md5_ = hs.md5()
-
 def file_reader(path):
     words = ''
     
